@@ -1,0 +1,7 @@
+img{
+    /* clip-path: ellipse(35%  50% at 50% 50%); */
+    /* clip-path: circle(35% at 50% 50%); */
+    /* clip-path: inset(2% 45% 50% 35%); */
+    clip-path: polygon(50% 0%,0% 100%,100% 100%);
+    /* site for different shapes- https://benneettfeely.com  */
+}
