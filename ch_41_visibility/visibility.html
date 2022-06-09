@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility</title>
+    <style>
+        ul{
+            border: 3px solid black;
+            visibility: visible;
+            width: 500px;
+        }
+        tr.first{
+            visibility: collapse;
+        }
+        td.first{
+            visibility: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ravinder : Visibility</h1>
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+    </ul>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque placeat ipsa pariatur tempora magni praesentium dignissimos voluptatem recusandae. Facilis ratione deleniti in. Odit facilis totam mollitia soluta recusandae possimus nesciunt?</p>
+    <table border="2">
+        <tr>
+            <td>Chautala</td>
+            <td>Ravinder</td>
+        </tr>
+        <tr class="first">
+            <td>Ravinder</td>
+            <td>Chautala</td>
+        </tr>
+        <tr>
+            <td class="first">Chautala</td>
+            <td>Ravinder</td>
+        </tr>
+    </table>
+</body>
+</html>

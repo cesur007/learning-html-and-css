@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-blend-mode</title>
+    <style>
+        body{
+            background-color:aqua;
+        }
+        #box{
+            border: 5px solid red;
+            width: 1000px;
+            height: 500px;
+            /* background: linear-gradient(to left,red, yellow, green, blue, black); */
+            /* background: repeating-linear-gradient(to right,red, yellow, green, blue, black); */
+            /* background: radial-gradient(closest-side at 80% 20%,red, yellow, green, blue, black); */
+            /* background: radial-gradient(farthest-side at 80% 20%,red, yellow, green, blue, black); */
+            /* background: radial-gradient(closest-corner at 80% 20%,red, yellow, green, blue, black); */
+            /* background: radial-gradient(farthest-corner at 80% 20%,red, yellow, green, blue, black); */
+            background-image: repeating-linear-gradient(red , yellow , green ),url(./katherine-langford-2017-4k-wallpaper-preview.jpg);
+            background-size: cover;
+            background-blend-mode: soft-light;
+        }
+    </style>
+</head>
+<body>
+    <h1>background-blend-mode</h1>
+    <div id="box"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugit, vitae praesentium neque autem beatae est aspernatur itaque cupiditate placeat quae aut molestiae facere sapiente quaerat commodi blanditiis incidunt? Porro eaque sit molestias, commodi cum consequatur quos odit! Dolorem rem pariatur quis magni corrupti consequuntur commodi dolore eos cumque autem?</div>
+</body>
+</html>

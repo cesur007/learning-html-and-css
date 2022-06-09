@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Properties</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            /* border-spacing: 10px 0px; */
+            border-collapse: separate;
+            table-layout: auto; /*to adjust the table size acoording to table data*/
+            width: 300px;
+            empty-cells: hide;
+        }
+        table, td, tr{
+            border: 2px solid black;
+        }
+        td{
+            vertical-align: top;
+            padding: 10px;
+        }
+        caption{
+            caption-side: bottom;
+        }
+        td:hover{
+            background: orange;
+        }
+        tr:hover{
+            background-color: chartreuse;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Table Properties</h1>
+    <table>
+        <caption>Income table</caption>
+            <tr>
+                <td>Name</th>
+                <td>Last Name</th>
+                <td>Salary</th>
+                </tr>
+            <tr>
+                <td>Ravinder Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum obcaecati enim laudantium quod, cumque eius officiis. Ipsum libero distinctio reprehenderit.</th>
+                <td>Chautala</th>
+                <td>$1000</th>
+                </tr>
+            <tr>
+                <td>Vinita</th>
+                <td>Rahar</th>
+                <td>$7000</th>
+                </tr>
+            <tr>
+                <td>Jatta</th>
+                <td>volley</th>
+                <td></th>
+            </tr>
+    </table>
+</body>
+</html>
