@@ -1,0 +1,15 @@
+.box{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 50px;
+    background: rgb(8, 248, 208);
+    color: #ff4500;
+    padding: 10px;
+    user-select: none;
+
+}
+h1{
+    margin: 50px;
+    user-select: none;
+}
