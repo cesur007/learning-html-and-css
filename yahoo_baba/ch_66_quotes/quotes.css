@@ -1,0 +1,7 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+q{
+    quotes: "<" ">" "'" "'";
+    /* search quotation marks in google for more signs */
+}
