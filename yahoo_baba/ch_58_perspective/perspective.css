@@ -4,6 +4,7 @@
     background: grey;
     margin: 100px;
     perspective: 800px;
+    /* perspective-origin: left bottom; */
     perspective-origin: 30% 80%;
 }
 #box{
