@@ -5,7 +5,6 @@ div{
     width: 400px;
     height: 250px;
     background: red;
-    opacity: 0.5;
     margin: 0 0 70px 100px;
     perspective: 800px;
     transform: rotateY(30deg);
@@ -13,6 +12,7 @@ div{
     
 }
 #box{
+    opacity: 0.5;
     width: 400px;
     height: 250px;
     background: rgb(16, 146, 135);
