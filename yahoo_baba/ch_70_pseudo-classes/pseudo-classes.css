@@ -1,0 +1,88 @@
+body{
+    font: 19px/25px arial;
+    padding: 10px 0 0 20px;
+}
+h1{
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+/* li:first-child{
+    color:red;
+} */
+p:last-child{
+    color: red;;
+}
+/* li:nth-child(3n-1){
+    color: greenyellow;
+} */
+/* p:nth-of-type(2){
+    color: aqua;
+} */
+/* li:nth-last-of-type(2){
+    background: blue;
+} */
+ /* p:only-child{
+    color: royalblue; 
+} */
+/* p:only-of-type{
+    background: blueviolet; 
+} */
+div:empty{
+    border: 3px groove peru;
+}
+/* p:not(.list){
+    color: red;
+} */
+p:lang(eng){
+    color: crimson;
+}
+ul a{
+    color: blueviolet;
+}
+ul a:hover{
+    color: darkorange;
+}
+/* ul a:visited{
+    color: grey;
+} */
+ul a:active{
+    color: mediumspringgreen;
+}
+p:target{
+    background: green;
+} 
+input:focus{
+    border: 3px solid red;
+}
+/* input[type='checkbox']:checked+ label{
+    box-shadow: 1px 1px 3px red;
+} */
+input[type='radio']:checked+ label{
+    color:red;
+    border: 2px groove black;
+}
+/* input[type='text']:enabled{
+    border: 3px inset blue;
+} */
+input:in-range{
+    border: 2px solid gray;
+    background: blue;
+}
+input:out-of-range{
+    border: 2px solid gray;
+    background: red;
+}
+input:read-only{
+    border: 4px groove yellow;
+}
+input[type='email']:invalid{
+    border: 2px solid red;
+    background: red;
+}
+input[type='email']:valid{
+    border: 2px solid lightblue;
+    background: lightblue;
+}
+input:default{
+    box-shadow: 1px 1px 4px brown;
+}
