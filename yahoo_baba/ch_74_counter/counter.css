@@ -1,0 +1,15 @@
+body{
+    font: 19px/25px arial;
+    padding: 10px 0 0 20px;
+    counter-reset: my-counter 0;
+}
+h1{
+    font-size: 32px;
+    margin-bottom: 35px;
+    color: salmon;
+}
+h2::before{
+    content: "Chapeter " counter(my-counter, upper-alpha) " : ";
+    counter-increment: my-counter 1;
+    color: chartreuse;
+}
