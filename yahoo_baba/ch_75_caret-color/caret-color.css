@@ -1,0 +1,5 @@
+input{
+    /* for changing the color of cursor */
+    caret-color: darkorange;
+    /* caret-color: transparent; */
+}
