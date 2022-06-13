@@ -1,0 +1,16 @@
+p{
+    font-size: 30px;
+    margin-top: 100px;
+}
+p:hover:before{
+    content: "~~~~~";
+    font-size: 50px;
+    background: aquamarine;
+    display: block;
+}
+p::after{
+    content: "~~~~~";
+    font-size: 50px;
+    background: aquamarine;
+    display: block;
+}
