@@ -1,0 +1,29 @@
+#wrapper{
+    background: gray;
+}
+#header{
+    background:red;
+    color: white;
+
+}
+#menu{
+    background: orange;
+}
+
+#menu li a{
+    color: black;
+}
+#menu li a:hover{
+    background: red;
+    color: white;
+}
+
+#sidebar{
+    background: blue;
+}
+#sidebar a{
+    color: black;
+}
+#footer{
+    background: orange;
+}

@@ -1,0 +1,33 @@
+@media  screen and (max-width:1020px) {
+    #wrapper{
+        width:880px;
+    }
+    #content{
+        width:80%;
+    }
+    #sidebar{
+        width:18%;
+    }
+}
+@media  screen and (max-width:810px) {
+    #wrapper{
+        width:500px;
+    }
+    #content{
+        width:65%;
+    }
+    #sidebar{
+        width:18%;
+    }
+}
+@media  screen and (max-width:340px) {
+    #wrapper{
+        width:200px;
+    }
+    #content{
+        width:80%;
+    }
+    #sidebar{
+        width:18%;
+    }
+}
