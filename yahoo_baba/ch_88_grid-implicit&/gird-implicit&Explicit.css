@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    padding: 0 0 0 40px;
+}
+.container{
+    background: #eee;
+    width: 650px;
+    margin: 45px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 120px);
+    grid-gap: 15px;
+    grid-auto-rows: 80px;
+    grid-auto-flow: column;
+    grid-auto-columns: .5fr;
+}
+.box1{
+    background: orange;
+}
+.box2{
+    background: lightgreen;
+
+}
+.box3{
+    background: purple;
+
+    
+}
+.box4{
+    background:pink;
+
+}
+.box5{
+    background: blue;
+    
+}
+.box6{
+    background: rgb(71, 150, 71);
+
+}
+.box7{
+    background: orange;
+}
+.box8{
+    background: greenyellow;
+}
