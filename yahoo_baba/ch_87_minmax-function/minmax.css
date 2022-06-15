@@ -1,0 +1,43 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin: 45px auto 0;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: minmax(100px,1fr) 1fr 1fr min-content;
+    grid-template-rows: repeat(2,minmax(120px,min-content));
+}
+.box1{
+    background: orange;
+}
+.box2{
+    background: lightgreen;
+
+}
+.box3{
+    background: purple;
+
+    
+}
+.box4{
+    background:pink;
+
+}
+.box5{
+    background: blue;
+    
+}
+.box6{
+    background: rgb(71, 150, 71);
+
+}
+.box7{
+    background: orange;
+}
+.box8{
+    background: greenyellow;
+}
