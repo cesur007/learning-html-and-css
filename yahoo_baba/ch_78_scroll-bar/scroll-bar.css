@@ -1,0 +1,22 @@
+#box{
+    width: 250px;
+    height: 400px;
+    margin: 50px 20px;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+#box::-webkit-scrollbar{
+    border-radius: 20px;
+    background: green;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);}
+#box::-webkit-scrollbar-track{
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#box::-webkit-scrollbar-thumb{
+    width: 10px;
+    border-radius: 10px;
+    background: linear-gradient(red,yellow);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
