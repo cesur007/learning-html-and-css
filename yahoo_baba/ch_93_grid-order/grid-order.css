@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+
+}
+h1{
+    padding: 0 0 0 40px;
+}
+.container{
+    background: lightgrey;
+    width: 80%;
+    margin: 50px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px , 1fr));
+    grid-template-rows: repeat(2, 100px);
+}
+.box1{
+    background: orange;
+    order: 2;
+}
+.box2{
+    background: blue;
+    order: 1;
+}
+.box3{
+    background: green;
+}
+.box4{
+    background: black;
+}
+.box5{
+    background: violet;
+}
+.box6{
+    background: khaki;
+}
