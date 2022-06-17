@@ -1,0 +1,27 @@
+body{font-family: Arial, Helvetica, sans-serif;}
+h1{padding: 0 0 0 40px;}
+
+.container{
+    background: grey;
+    width: 600px;
+    margin: 50px auto 0;
+    padding: 10px;
+    border: 3px solid black;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: row; */
+    flex-direction: column-reverse;
+    /* flex-direction: column; */
+}
+.box1{
+    background: orangered;
+}
+.box2{
+    background: yellowgreen;
+}
+.box3{
+    background: mediumblue;
+}
+.box4{
+    background: goldenrod;
+}
