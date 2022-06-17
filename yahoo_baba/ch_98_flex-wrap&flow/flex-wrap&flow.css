@@ -1,0 +1,42 @@
+body{font-family: Arial, Helvetica, sans-serif;}
+h1{padding: 0 0 0 40px;}
+
+.container{
+    background: grey;
+    height: 100px;
+    margin: 50px auto 0;
+    padding: 10px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    flex-flow: wrap-reverse;
+
+}
+.box1{
+    background: orangered;
+}
+.box2{
+    background: yellowgreen;
+}
+.box3{
+    background: mediumblue;
+}
+.box4{
+    background: goldenrod;
+}
+.box5{
+    background: rgb(30, 255, 0);
+}
+.box6{
+    background: rgb(7, 158, 245);
+}
+.box7{
+    background: rgb(205, 0, 195);
+}
+.box8{
+    background: rgb(255, 3, 3);
+}
