@@ -6,7 +6,7 @@ h1{padding: 0 0 0 45px;}
     background: lightgrey;
     margin: 50px;
     padding: 0px;
-    height: 300px;
+    height: 100px;
     border: 3px solid black;
     
     display: flex;
@@ -14,15 +14,14 @@ h1{padding: 0 0 0 45px;}
 }
 .box1{
     background: green;
-    align-self: center;
+    order: 1;
 }
 .box2{
     background: rgb(35, 198, 204);
-    align-self: auto;
 }
 .box3{
     background: rgb(217, 240, 13);
-    align-self: baseline;
+    order: -1;
 }
 .box4{
     background: rgb(13, 0, 128);
