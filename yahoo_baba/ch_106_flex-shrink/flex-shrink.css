@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{padding: 0 0 0 45px;}
+.container{
+    background: lightgrey;
+    margin: 50px;
+    padding: 0px;
+    height: 100px;
+    border: 3px solid black;
+    
+    display: flex;
+}
+.box{
+    font-size: 20px;
+    text-align: center;
+    color: aqua;
+    margin: 0px;
+    width: 200px;
+    padding: 0px;
+}
+.box1{
+    background: #008000;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+.box2{
+    background: rgb(35, 198, 204);
+}
+.box3{
+    background: rgb(217, 240, 13);
+}
+.box4{
+    background: rgb(13, 0, 128);
+    flex-grow: 1;
+}
