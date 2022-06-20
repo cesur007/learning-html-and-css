@@ -1,0 +1,6 @@
+@supports not (filter: blur(2px)){
+    body{
+        background: orange;
+    }
+
+}
