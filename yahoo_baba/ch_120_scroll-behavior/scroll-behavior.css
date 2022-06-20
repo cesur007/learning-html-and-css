@@ -1,0 +1,32 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+li a{
+    color:aliceblue;
+    margin: 0 1em;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+}
+nav{
+    display: block;
+    text-align: center;
+    background: black;
+    position: sticky;
+    top: 0;
+}
+h2{
+    text-align: center;
+    padding-top: 50px;
+}
+div{
+    padding: 60px 40px;
+}
