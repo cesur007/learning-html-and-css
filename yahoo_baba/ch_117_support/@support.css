@@ -1,4 +1,4 @@
-@supports not (filter: blur(2px)){
+@supports (display: flex) and (filter: blur(2px)){
     body{
         background: orange;
     }
