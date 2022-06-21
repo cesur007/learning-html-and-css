@@ -1,0 +1,24 @@
+html{
+    /* scroll-snap-type: y mandatory; */
+    scroll-snap-type: y proximity;
+}
+body div{
+        height: 100vh;
+        border: 1px solid black;
+        scroll-snap-align: start;
+}
+.box1{
+    background: rebeccapurple;
+}
+.box2{
+    background: rgb(0, 167, 36);
+}
+.box3{
+    background: rgb(236, 67, 0);
+}
+.box4{
+    background: rgb(0, 236, 177);
+}
+.box5{
+    background: rgb(236, 181, 0);
+}
