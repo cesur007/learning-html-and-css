@@ -1,0 +1,19 @@
+#box{
+    border: 2px solid red;
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+    background-image: url(./katherine-langford-2017-4k-wallpaper-preview.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#test{
+    border: 1px solid #eee;
+    height: 200px;
+    width: 200px;
+    /* backdrop-filter: blur(4px); */
+    /* backdrop-filter: brightness(200%); */
+    backdrop-filter: contrast(200%);
+}
