@@ -1,0 +1,16 @@
+body{
+    background: greenyellow;
+}
+.test{
+    margin: auto;
+    width: 400px;
+    border: 2px solid black;
+}
+form{
+    padding: 20px;
+    background: #eee;
+}
+form:focus-within{
+    padding: 20px;
+    background: rgb(197, 27, 27);
+}
