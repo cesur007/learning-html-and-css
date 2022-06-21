@@ -1,0 +1,12 @@
+/* #test1 :is(h1,h2,h3){
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+} */
+:is(#test1 , #test2) p:hover{
+    font-family: Helvetica, sans-serif;
+    color: green;
+}
+:is(#test1 , #test2) p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}

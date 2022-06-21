@@ -1,0 +1,11 @@
+#test{
+    width: 400px;
+    border: 2px solid black;
+    font: 17px arial;
+    padding: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-orientation: sideways;
+    text-orientation: sideways-right;
+    /* text-orientation: upright; */
+}
