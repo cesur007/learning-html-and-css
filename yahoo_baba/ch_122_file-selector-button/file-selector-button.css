@@ -1,9 +1,9 @@
-input[type="file"]::-webkit-file-upload-button{
+input[type="file"]::file-selector-button{
     background-color: aqua;
     border: 1px solid springgreen;
     border-radius: 4px;
 }
-input[type="file"]::-webkit-file-upload-button:hover{
+input[type="file"]::file-selector-button:hover{
     background-color: rgb(31, 192, 192);
     border: 1px solid rgb(36, 139, 88);
 }
