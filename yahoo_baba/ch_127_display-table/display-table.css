@@ -1,0 +1,36 @@
+#table{
+    display: table;
+    width: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.col{
+    display: table-cell;
+    border: 1px solid black;
+}
+.row{
+    display: table-row;
+}
+.header{
+    display: table-header-group;
+    background: lightblue;
+    text-align: center;
+}
+.footer{
+    display: table-footer-group;
+    background: lightgreen;
+}
+.row-group{
+    display: table-row-group;
+    /* background: lightcoral; */
+}
+.col-2{
+    background: dimgray;
+    width: 400px;
+}
+.table-colgroup{
+    display: table-column-group;
+}
+.table-col{
+    display: table-column;
+}
