@@ -1,0 +1,13 @@
+body{
+    background: orange;
+}
+@media (prefers-color-scheme: light){
+    body{
+        background: red;
+    }
+}
+@media (prefers-color-scheme: dark){
+    body{
+        background: rgb(0, 255, 21);
+    }
+}
