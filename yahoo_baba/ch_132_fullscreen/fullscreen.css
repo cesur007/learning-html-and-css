@@ -1,0 +1,13 @@
+#box{
+    background: lightblue;
+    border: 2px solid black;
+    width: 300px;
+    aspect-ratio: 3/2;
+}
+#box:fullscreen{
+    background: lightgreen;
+    font-size: 40px;
+}
+#box:fullscreen p{
+    color: red;
+}
