@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (display-mode: fullscreen){
+    h1{
+        font-family: 'Courier New', Courier, monospace;
+        color: aqua;
+    }
+}
+@media (display-mode: browser){
+    h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rebeccapurple;
+    }
+}
+@media (display-mode: minimal-ui){
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: greenyellow;
+    }
+}
