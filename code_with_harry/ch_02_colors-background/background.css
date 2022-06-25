@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* background-color: rgb(118, 60, 173); */
+    height: 1044px;
+    width: 344px;
+    /* background-image: url(https://imgs.search.brave.com/124s5XpPSX3gg5CDVJH_ph7cjVvibcW9t0wKsgDOFQI/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Q/WWlwSl9oU25jdWdN/MlN3blppdHZnSGFF/SyZwaWQ9QXBp); */
+    background-repeat: no-repeat;
+    border: 2px solid red;
+    /* background-size: 56px 76px; */
+    /* background-position: center; */
+    color: crimson;
+    /* background-attachment: fixed; */
+    background: black url(https://imgs.search.brave.com/124s5XpPSX3gg5CDVJH_ph7cjVvibcW9t0wKsgDOFQI/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Q/WWlwSl9oU25jdWdN/MlN3blppdHZnSGFF/SyZwaWQ9QXBp) no-repeat fixed;
+}
