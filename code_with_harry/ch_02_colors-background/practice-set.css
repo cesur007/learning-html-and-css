@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    background-color: darkblue;
+    color: chartreuse;
+    width: 30%;
+    height: 50vh;
+}
+.main{
+    color: red;
+}
+.image{
+    height: 500px;
+    width: 400px;
+    border: 2px solid chartreuse;
+    background-image: url(https://www.fashiongonerogue.com/wp-content/uploads/2018/05/Katherine-Langford-Photoshoot01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: ; */
+}
+.prob4{
+    width: 500px;
+    height: 1024px;
+    background-image: url(https://www.fashiongonerogue.com/wp-content/uploads/2018/05/Katherine-Langford-Photoshoot01.jpg);
+    border: 1px solid chartreuse;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 500px 700px;
+    background-attachment: fixed;
+}
