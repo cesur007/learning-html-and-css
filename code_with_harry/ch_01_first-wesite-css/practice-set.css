@@ -1,0 +1,17 @@
+.red{
+    background-color: red;
+    color: white;
+}
+#head{
+    background-color: aqua !important;
+}
+.one h1{
+        background: green;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+    color: aqua;
+}
