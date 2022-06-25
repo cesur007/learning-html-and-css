@@ -1,0 +1,11 @@
+.box{
+    height: 700px;
+    width: 500px;
+    background-color: darkcyan;
+    margin: 20px 25px 30px 12px;
+    padding: 25px 23px 32px 22px;
+    border-width: 5px;
+    border-color: rgb(73, 245, 11);
+    border-style: groove;
+    border-radius: 10px;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    color: rgb(243, 255, 8);
+    font-size: 25px;
+}
+.box1{
+    background: red;
+    margin: 20px;
+}
+.box2{
+    margin: 30px;
+    background: rgb(230, 0, 255);
+}
