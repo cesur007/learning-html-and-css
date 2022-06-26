@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:black;
+    color: aqua;
+    height: 30px;
+}
+header ul li{
+    display: inline;
+    padding: 0 80px;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+.content1{
+    width: 50%;
+    height: 90vh;
+    display: inline-block;
+    background-color: blue;
+    color: aqua;
+}
+.content2{
+    width: 50%;
+    display: inline-block;
+    height: 90vh;
+    background-color: rgb(56, 99, 137);
+    color: red;
+}
+footer{
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+}
