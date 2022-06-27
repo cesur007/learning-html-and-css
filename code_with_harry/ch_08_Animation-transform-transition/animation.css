@@ -1,0 +1,43 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+.box{
+    width: 300px;
+    background-color: red;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    /* animation properties */
+    animation-name: width;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction:normal;
+    animation-timing-function: ease;
+}
+img{
+    border: 2px solid red;
+    border-radius: 50%;
+    animation-name: width;
+    animation-name: width;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+}
+@keyframes width {
+    from{
+        width: 500px;
+        height: 500px;
+    }
+    to{
+        width: 100vw;
+        height: 100vh;
+    }
+}
