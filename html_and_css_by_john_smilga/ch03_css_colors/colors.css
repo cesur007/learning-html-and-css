@@ -1,0 +1,25 @@
+/* color properties */
+/* color background-color background */
+body{
+    background: rgb(198, 39, 163);
+}
+#first{
+    color: white;
+    background-color: black;
+}
+#second{
+    color: rgb(255,0,0);
+    background: rgb(0,0,0) ;
+}
+#three{
+    color: rgba(255, 244, 38, 0.5);
+    background: rgba(104, 45, 136, 0.703);
+}
+#four{
+    color: #f15025;
+    background-color: #40886d;
+}
+#five{
+    color: aqua;
+    /* for generation of color from external resources go to coolors.co */
+}
