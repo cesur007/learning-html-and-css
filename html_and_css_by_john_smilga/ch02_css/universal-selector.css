@@ -1,0 +1,13 @@
+/* last-rule:- last property given to any element or section is applied it averrides the before property */
+/* specificity:- elements > id > class */
+#heading{
+    color: green;
+}
+.heading{
+    color: red;
+}
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
