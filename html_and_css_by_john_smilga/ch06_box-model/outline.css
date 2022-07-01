@@ -1,0 +1,24 @@
+/* outline, offset  */
+.links{
+    margin: 3rem;
+}
+body{
+    background-color: cyan;
+}
+a{
+    background: green;
+    text-decoration: none;
+    padding: 1.2rem 1.5rem;
+    color: #222;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+#one{
+    border: 5px solid black;
+}
+#two{
+    outline-width: 5px;
+    outline-style: groove;
+    outline-color: red;
+    outline-offset: 5px;
+}
