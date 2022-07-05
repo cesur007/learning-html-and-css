@@ -1,0 +1,77 @@
+/* Basic Selectors */
+/* 
+(temp)*{
+    color: red;
+} */
+#heading{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blue;
+}
+.heading{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: green;
+}
+/* p{
+    letter-spacing: 5px;
+    color: black;
+} */
+/* descendant selectors */
+.header h1{
+    color: aqua;
+}
+.header > h1{
+    color: darkgray;
+}
+div h1{
+    color: grey;
+}
+div > h1{
+    color: rgb(10, 249, 10);
+}
+/* ::first-letter and ::first-line */
+/* p::first-letter{
+    font-size: 150%;
+    color: darkturquoise;
+}
+p::first-line{
+    font-weight: bold;
+} */
+/* hover */
+.hover:hover{
+    color: chartreuse;
+    font-size: 20px;
+    background: darkcyan;
+}
+#lulu:hover{
+    text-decoration: none;
+    font-size: 25px;
+    background: lightcyan;
+    color: darkorange;
+}
+/* Link Pseudo Class Selectors */
+a{
+    display: block;
+    background: rgb(14, 247, 150);
+    margin: 10px;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:active{
+    color: cadetblue;
+}
+/* :root */
+:root{
+    font-size: 20px;
+}
+.absolute{
+    font-size: 24px;
+}
+.relative{
+    font-size: 1.5rem;
+}
