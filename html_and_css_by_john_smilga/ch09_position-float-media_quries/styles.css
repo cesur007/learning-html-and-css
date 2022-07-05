@@ -1,0 +1,58 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* float property */
+.banner{
+    border: 5px solid red;
+    padding: 10px;
+}
+img{
+    float: left;
+}
+.banner p{
+    clear: both;
+}
+/* float column layout example */
+.one, .two, .three{
+    height: 200px;
+    width: 33.33%;
+    float: left;
+}
+.one{
+    background: red;
+}
+.two{
+    background: green;
+}
+.three{
+    background: blue;
+}
+/* Postion:relative */
+.relative{
+    border: 3px solid green;
+    background: yellow;
+    margin-top: 300px;
+}
+.first{
+    background: blue;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+.second{
+    background: green;
+    color: white;
+}
+/* position: absolute */
+.special{
+    background: pink;
+    font-size: 20px;
+    color: #222;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}

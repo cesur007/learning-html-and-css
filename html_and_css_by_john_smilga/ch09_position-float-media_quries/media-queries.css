@@ -1,0 +1,36 @@
+body{
+    background: yellow;
+}
+.banner{
+    background: blue;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+@media screen and (min-width: 576px){
+    body{
+        background: red;
+    }
+    .banner{
+        background: #ffff00;
+    }
+    h1{
+        color: black;
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 768px){
+    body{
+        background: green;
+    }
+    .banner{
+        background:pink;
+    }
+    h1{
+        color: aqua;
+        font-size: 35px;
+    }
+}
