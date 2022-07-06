@@ -1,0 +1,21 @@
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.one{
+    background: red;
+    transform: translateY(50%);
+}
+.two{
+    background: blue;
+    transform: translateX(50px);
+}
+/* to center an element exactly */
+.three{
+    background: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
