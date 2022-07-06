@@ -8,6 +8,7 @@ div:hover{
     background: coral;
     border-radius: 50%;
     transform: scale(1.2);
+    transition-timing-function: ease-out;
 }
 .one{
     background: red;
