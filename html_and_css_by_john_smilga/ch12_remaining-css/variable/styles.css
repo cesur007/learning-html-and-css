@@ -1,0 +1,32 @@
+:root{
+    --primaryColor: rgba(26, 210, 213, 0.861);
+    --cl-secondary: rgb(68, 217, 68);
+    --mainTransition: all 2s linear;
+    --mainSpacing: 5px;
+}
+h1{
+    color: var(--primaryColor);
+    transition: var(--mainTransition);
+}
+h2{
+    color:  var(--primaryColor);
+}
+h3{
+    color:  var(--primaryColor);
+}
+p{
+    letter-spacing: var(--mainSpacing);
+    transition: var(--mainTransition);
+}
+h1:hover{
+    color:  var(--cl-secondary);
+}
+p:hover{
+    color:  var(--cl-secondary);
+}
+div{
+    --primaryRed: red;
+}
+.main-text{
+    color: var(--primaryRed);
+}

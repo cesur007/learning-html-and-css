@@ -1,0 +1,12 @@
+/* text-shadow */
+h1{
+    text-shadow: 2px 2px 5px red;
+}
+/* box-shadow */
+.box{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 20px;
+    box-shadow: 4px 4px 10px green;
+}

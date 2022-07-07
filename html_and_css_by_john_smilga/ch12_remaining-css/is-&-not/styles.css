@@ -1,0 +1,6 @@
+:is(nav,header,section) h2:hover{
+    color: red;
+}
+.special :not(h1){
+    color: red;
+}
