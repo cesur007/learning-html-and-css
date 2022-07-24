@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Task || Starter</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <form class="form single-task-form">
+        <h4>Edit Task</h4>
+        <div class="form-control">
+            <label for="form-label" class="form-label">Task Id</label>
+            <p class="task-edit-id">123456789</p>
+        </div>
+        <div class="form-control">
+            <label for="form-label" class="form-label">Name</label>
+            <input type="text" class="form-input task-edit-name" value="code push">
+        </div>
+        <div class="form-control">
+            <label for="form-label" class="form-label">Completed</label>
+            <input type="checkbox" name="completed" class="task-edit-completed">
+        </div>
+        <button type="button" class="btn btn-block">edit</button>
+        <div class="from-alert text-small">there was an error</div>
+    </form>
+    <a href="index.html" class="btn back-link">back to tasks</a>
+</body>
+</html>

@@ -179,7 +179,7 @@ ul{
     background: var(--green-light);
 }
 /* form */
-.from{
+.form{
     width: 90vw;
     max-width: var(--max-width);
     background: var(--white);
