@@ -3,15 +3,15 @@ const getElement = (selector) =>{
     if(el) return el
     throw new Error('please check your classes: $ {selector} does not exist')
 }
-const navToggle =getElement('.sidebar-toggle')
-const links = getElement('.sidebar')
+const navToggle =getElement('.modal-btn')
+const links = getElement('.modal-overlay')
 const closeBtn = getElement('.close-btn')
 
 navToggle.addEventListener('click', function() {
-    links.classList.toggle('show-sidebar')
+    links.classList.toggle('open-modal')
 })
 closeBtn.addEventListener('click', () => {
-    links.classList.remove('show-sidebar')
+    links.classList.remove('open-modal')
 })
 // const target =document.getElementsByClassName("nav-toggle");
 // const link = document.getElementsByClassName("links");
