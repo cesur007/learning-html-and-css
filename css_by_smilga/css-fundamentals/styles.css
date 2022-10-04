@@ -1,7 +1,19 @@
+/* element selector */
 h1 {
   color: rgb(104, 178, 243);
+  font-size: 25px;
 }
 h2 {
   color: blueviolet;
   font-family: "Courier New", Courier, monospace;
+}
+/* id selector */
+#test {
+  color: red;
+  background-color: black;
+}
+/* class selector */
+.testclass {
+  color: black;
+  background: red;
 }
