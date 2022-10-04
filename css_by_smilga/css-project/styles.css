@@ -1,0 +1,16 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.icon {
+  color: red;
+  font-size: 40px;
+}
+#first,
+#second {
+  color: blue;
+  font-size: larger;
+}
+.container p {
+  color: rgb(107, 104, 104);
+}
