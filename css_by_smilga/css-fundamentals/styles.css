@@ -17,3 +17,9 @@ h2 {
   color: black;
   background: red;
 }
+
+.uppercase {
+  text-transform: uppercase;
+  color: rgb(37, 102, 158);
+  background: yellow;
+}
