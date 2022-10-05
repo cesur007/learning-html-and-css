@@ -1,0 +1,23 @@
+#first {
+  /* using color name */
+  color: white;
+  background-color: black;
+}
+#second {
+  /* using color hexcode */
+  color: #ff0000;
+  background-color: #ffff00;
+}
+#third {
+  /* usning rgb value */
+  color: rgb(255, 0, 0); /* r-red g-green b-blue*/
+  background-color: rgb(0, 0, 0);
+}
+#fourth {
+  /* using rgba value */
+  color: rgba(34, 103, 206, 0.9); /* r-red g-green b-blue  a-alpha(opacity)*/
+  background-color: rgba(199, 202, 34, 0.76);
+}
+body {
+  background-color: rgba(39, 210, 216, 0.699);
+}
