@@ -1,0 +1,17 @@
+body {
+  background-color: #f1f5f9;
+}
+.container {
+  background-color: #fff;
+}
+.container p {
+  font-size: 30px;
+  color: grey;
+}
+.container h3 {
+  color: #645cff;
+  font-size: 40px;
+}
+.special-container {
+  background-color: rgba(0, 0, 0, 0.9);
+}
