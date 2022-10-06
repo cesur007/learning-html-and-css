@@ -5,6 +5,7 @@
 }
 .navbar {
   height: 100px;
+  background-color: #fff;
 }
 .logo {
   font-size: 2rem;
@@ -13,6 +14,7 @@
 .container {
   background-color: #222;
   min-height: calc(100vh - 100px);
+  color: #fff;
 }
 span {
   color: red;
@@ -20,11 +22,7 @@ span {
   font-size: 1.5em;
 }
 .container h1 {
-  color: #fff;
   text-transform: capitalize;
-}
-p {
-  color: #fff;
 }
 .btn {
   background-color: red;
