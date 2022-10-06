@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 100px;
+}
+.logo {
+  font-size: 2rem;
+  color: red;
+}
+.container {
+  background-color: #222;
+  min-height: calc(100vh - 100px);
+}
+span {
+  color: red;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+.container h1 {
+  color: #fff;
+  text-transform: capitalize;
+}
+p {
+  color: #fff;
+}
+.btn {
+  background-color: red;
+  padding: 2px 4px;
+  color: #fff;
+}
