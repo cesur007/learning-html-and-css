@@ -1,0 +1,60 @@
+/* pixcels unit */
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 40px;
+  color: blue;
+  background: black;
+  /* width: 300px; */
+}
+/* percent unit */
+.outer {
+  border: 2px solid red;
+  height: 300px;
+  width: 500px;
+  background: yellow;
+}
+
+.inner {
+  height: 50%;
+  width: 56%;
+  background-color: blue;
+  color: aqua;
+}
+/* em unit-depends on the parent element */
+.box {
+  font-size: 32px;
+}
+.absolute {
+  font-size: 22px;
+  background: red;
+}
+.relative {
+  font-size: 2em;
+  background: green;
+}
+/* rem units - relative to the root element 
+for e.g. HTML element 
+1rem = base value (16px)*number(1)
+*/
+.test {
+  font-size: 10px;
+}
+.abs {
+  font-size: 22px;
+}
+.rel {
+  font-size: 2rem;
+}
+/* 
+Viewport Units
+vh- height - percent of the screen
+vw - width - percent of the screen
+*/
+.veiwport {
+  height: 24vh;
+  width: 50vw;
+  background: orange;
+}
