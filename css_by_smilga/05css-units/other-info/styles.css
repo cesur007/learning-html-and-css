@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background: lightcoral;
+  height: 50px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: chartreuse;
+}
+.banner {
+  height: calc(100vh - 50px);
+  background-color: blue;
+}
+/* overflow & min &max height-width */
+.example {
+  background-color: green;
+  width: 20rem;
+  min-height: 10rem;
+  /* overflow: auto; */
+}
