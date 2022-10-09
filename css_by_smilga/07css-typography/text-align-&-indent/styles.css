@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* text-align: right; */
+}
+.one {
+  /* text align */
+  text-align: center;
+}
+.sub-heading {
+  text-align: center;
+  text-indent: 100px;
+}
+.two {
+  text-indent: 100px;
+}
