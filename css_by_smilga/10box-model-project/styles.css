@@ -1,0 +1,70 @@
+:root {
+  --grey: #f1f5f9;
+  --white: #fff;
+  --light-pink: #ffe8f1;
+  --dark-pink: #ff69a6;
+  --light-blue: #ecf4ff;
+  --dark-blue: #68a3ff;
+  --border-radius: 5px;
+}
+body {
+  background-color: var(--grey);
+  margin: 10% auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.card {
+  background-color: var(--white);
+  padding: 1.5rem;
+  text-align: center;
+  max-width: 400px;
+  margin: 1rem auto;
+  border: 1px solid;
+}
+.card-1 {
+  border-color: var(--dark-pink);
+}
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+.icon-1 {
+  background-color: var(--dark-pink);
+  border-color: #ff69a6;
+  margin: 1rem auto;
+}
+.title {
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+.text {
+  line-height: 1.5rem;
+  width: 80%;
+  color: #64748b;
+  margin: 10px auto;
+}
+.btn {
+  margin: 10px auto;
+  padding: 3px 10px;
+  border: transparent;
+  border-radius: 3px;
+  letter-spacing: 2px;
+}
+
+.btn-pink {
+  background-color: var(--light-pink);
+  color: var(--dark-pink);
+}
+.btn-blue {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+}
+.icon-2 {
+  background-color: var(--dark-blue);
+  margin: 1rem auto;
+}
+.card-2 {
+  border-color: #68a3ff;
+}
