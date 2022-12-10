@@ -1,0 +1,59 @@
+.navbar {
+  background: rgb(248, 108, 14);
+  position: sticky;
+  margin-top: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+li {
+  padding: 0.2rem 2rem;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: rgb(44, 66, 63);
+}
+
+.section {
+  border: 3px solid red;
+  background: yellow;
+  color: #fff;
+  /* margin-top: 12vh; */
+  /* position: relative; */
+}
+/* position relative */
+.one {
+  background: blue;
+  /* position: relative; */
+  /* top: 200px; */
+  /* bottom: 2rem; */
+  /* right: 30px; */
+  /* left: 5em; */
+}
+.two {
+  background: green;
+  /* position: relative; */
+}
+/* position absolute */
+.special {
+  background: pink;
+  color: #222;
+  font-size: larger;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  /* transform: translateX(-50%);
+  transform: translateY(-50%); */
+}
+.box {
+  height: 100vh;
+  background: red;
+  color: #fff;
+  margin-top: 10px;
+}
