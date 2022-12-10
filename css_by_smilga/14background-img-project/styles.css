@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 10vh;
+  background: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5rem;
+  margin-left: 5rem;
+}
+.section {
+  height: calc(100vh - 10vh);
+  width: 100%;
+  padding: 5rem;
+  color: #fff;
+  background: linear-gradient(rgba(99, 60, 23, 0.747), rgba(39, 50, 56, 0.7)),
+    url(https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg?auto=compress&cs=tinysrgb&w=400);
+  background-size: cover;
+}
+.section h2 {
+  margin-bottom: 1rem;
+}
+p {
+  width: 40vw;
+  padding-bottom: 1rem;
+}
+.btn {
+  background: rgba(99, 60, 23, 0.747);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  border: 2px rgba(39, 50, 56, 0.7) solid;
+  border-radius: 0.5rem;
+}
