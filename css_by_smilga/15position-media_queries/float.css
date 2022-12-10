@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.outer {
+  height: 100vh;
+  width: 100vw;
+  border: 3px solid red;
+  background: gainsboro;
+}
+.one {
+  height: 50%;
+  width: 50%;
+  background: red;
+  float: left;
+}
+.two {
+  height: 50%;
+  width: 50%;
+  background: blue;
+  float: right;
+}
+.section {
+  border: 2px solid red;
+  padding: 10px;
+  min-height: 40vh;
+}
+img {
+  height: 200px;
+  float: right;
+}
+p {
+  clear: right;
+}
