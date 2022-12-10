@@ -1,0 +1,25 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+body {
+  background: #222;
+}
+.section {
+  background-color: #fff;
+  text-align: center;
+}
+.section-underline {
+  width: 50px;
+  height: 5px;
+  background: #306bc4;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.section-center {
+  width: 90vw;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
