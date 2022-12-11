@@ -1,0 +1,26 @@
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  /* transform: translateX(50px); */
+  /* transform: scaleX(1.2); */
+  /* transform: rotate(40deg); */
+  transform: skewX(40deg);
+}
+.two {
+  background: rgb(17, 0, 255);
+  /* transform: translateY(50px); */
+  /* transform: scaleY(1.6); */
+  /* transform: rotateZ(310deg); */
+  transform: skewY(-30deg);
+}
+.three {
+  background: rgb(0, 255, 21);
+  /* transform: translate(50%, 50%); */
+  /* transform: scale(1.9, 2); */
+  /* transform: rotateY(30deg); */
+  transform: skew(-30deg, 40deg);
+}
