@@ -1,0 +1,26 @@
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+div:hover {
+  background: coral;
+}
+.one {
+  background: red;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.one:hover {
+  border-radius: 50%;
+}
+.two {
+  background: rgb(17, 0, 255);
+}
+.three {
+  background: rgb(0, 255, 21);
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
